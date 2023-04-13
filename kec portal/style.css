@@ -1,0 +1,152 @@
+/*----index-----*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image:url(clg.png);
+	background-position:center;
+	background-size:cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 1% 5%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 250px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+ 	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+.nav-links ul li::after{
+	content: '';
+ 	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+} 
+
+
+
+/*------------- about us page ---------*/
+
+.sub-header{
+	height: 50vh;
+	width: 100%;
+ 	background-image:url(new.png);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+ /*-------loginpage -------*/
+
+ 
+ body{
+	margin: 0 auto;
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.sample{
+	display:flex;
+}
+.container{
+	width: 410px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+}
+
+
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.btn-login{
+	padding: 15px 25px;
+	border: none;
+	background-color: #27ae60;
+	color: #fff;
+}
+
+
+
+
